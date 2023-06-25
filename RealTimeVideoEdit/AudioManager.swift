@@ -1,6 +1,6 @@
 //
 //  ExportManager.swift
-//  testtask
+//  RealTimeVideoEdit
 //
 //  Created by Leonid Kibukevich on 03.10.2022.
 //

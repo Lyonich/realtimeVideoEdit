@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  testtask
+//  RealTimeVideoEdit
 //
 //  Created by Leonid Kibukevich on 02.10.2022.
 //
