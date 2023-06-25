@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		218C90AA28EB63E50047074F /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C90A928EB63E50047074F /* AudioManager.swift */; };
 		219925FB28EA0BD100EEE7D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219925FA28EA0BD100EEE7D6 /* AppDelegate.swift */; };
 		219925FD28EA0BD100EEE7D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219925FC28EA0BD100EEE7D6 /* SceneDelegate.swift */; };
 		219925FF28EA0BD100EEE7D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219925FE28EA0BD100EEE7D6 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		218C90A928EB63E50047074F /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 		219925F728EA0BD100EEE7D6 /* testtask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		219925FA28EA0BD100EEE7D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		219925FC28EA0BD100EEE7D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				219925FA28EA0BD100EEE7D6 /* AppDelegate.swift */,
 				219925FC28EA0BD100EEE7D6 /* SceneDelegate.swift */,
 				219925FE28EA0BD100EEE7D6 /* ViewController.swift */,
+				218C90A928EB63E50047074F /* AudioManager.swift */,
 				2199260028EA0BD100EEE7D6 /* Main.storyboard */,
 				2199260328EA0BD500EEE7D6 /* Assets.xcassets */,
 				2199260528EA0BD500EEE7D6 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				219925FF28EA0BD100EEE7D6 /* ViewController.swift in Sources */,
 				219925FB28EA0BD100EEE7D6 /* AppDelegate.swift in Sources */,
 				219925FD28EA0BD100EEE7D6 /* SceneDelegate.swift in Sources */,
+				218C90AA28EB63E50047074F /* AudioManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4TS6AP6MZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testtask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K4TS6AP6MZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testtask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
